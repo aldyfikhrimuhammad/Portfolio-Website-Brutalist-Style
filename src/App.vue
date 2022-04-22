@@ -21,6 +21,14 @@
       </b-navbar>
     </div>
     <router-view />
+
+  <!-- Footer -->
+  <footer>
+  <div class="text-center text-dark p-2" style="background-color: #fff; border: 2px solid black">
+    © 2020 Copyright -
+    <a class="text-dark" href="https://www.linkedin.com/in/aldyfikhrimuhammad/">Aldy Fikhri Muhammad</a>
+  </div>
+</footer>
   </div>
 </template>
 

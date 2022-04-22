@@ -2,7 +2,7 @@
   <b-container fluid class="bv-example-row homeContent">
     <b-row>
       <b-col style="border: 2px solid black">
-        <div class="contentLeft p-4 m-4">
+        <div class="contentLeft p-4 m-5">
           <h1>LOREM IPSUM<br />DOLOR SIT<br />AMET.</h1>
         </div>
         <div class="buttonContainer buttonContainer1 p-3 mb-4">
@@ -12,17 +12,19 @@
         </div>
       </b-col>
       <b-col style="border: 2px solid black">
-        <h1>LOREM</h1>
+        <div class="contentRight p-4 m-4">
+          <img src="@/assets/homePictures.jpeg" alt="Profile-Picture" width="65%" height="65%" style="border-radius: 25px; box-shadow: 26px 26px 51px #9e9e9e, -26px -26px 51px #ffffff" />
+        </div>
       </b-col>
     </b-row>
 
     <!--
-  <b-row>
-    <b-col>1 of 3</b-col>
-    <b-col>2 of 3</b-col>
-    <b-col>3 of 3</b-col>
-  </b-row>
-  -->
+    <b-row style="border: 2px solid black; padding: 50px 0px; box-sizing: border-box">
+      <b-col><b-icon icon="circle-fill" animation="throb" font-scale="4"></b-icon></b-col>
+      <b-col><b-icon icon="circle-fill" animation="throb" font-scale="4"></b-icon></b-col>
+      <b-col><b-icon icon="circle-fill" animation="throb" font-scale="4"></b-icon></b-col>
+    </b-row>
+    -->
   </b-container>
 </template>
 
@@ -69,6 +71,7 @@ h1 {
   font-weight: bold;
   border: 2px solid #000;
 }
+
 </style>
 
 <script>
