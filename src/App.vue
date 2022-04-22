@@ -1,16 +1,34 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+    <div>
+      <b-navbar toggleable="lg" type="light" variant="white" style="border: 2px solid black">
+        <router-link to="/"
+          ><b-navbar-brand>ALDY'S PORTFOLIO</b-navbar-brand></router-link
+        >
+
+        <b-navbar-toggle target="nav-collapse" style="border: 2px solid black"></b-navbar-toggle>
+
+        <b-collapse id="nav-collapse" is-nav>
+          <!-- Right aligned nav items -->
+          <b-navbar-nav class="ml-auto">
+          <b-nav-item class="navbar-item" disabled></b-nav-item>
+            <b-nav-item class="navbar-item"><router-link to="/">HOME</router-link></b-nav-item>
+            <b-nav-item class="navbar-item"><router-link to="/about">ABOUT</router-link></b-nav-item>
+            <b-nav-item class="navbar-item"><router-link to="/portfolio">PORTFOLIO</router-link></b-nav-item>
+            <b-nav-item class="navbar-item"><router-link to="/contact">CONTACT</router-link></b-nav-item>
+          </b-navbar-nav>
+        </b-collapse>
+      </b-navbar>
+    </div>
+    <router-view />
   </div>
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -26,7 +44,20 @@ nav a {
   color: #2c3e50;
 }
 
+.navbar-item {
+  border-right: 2px solid black;
+  padding: 5px;
+}
+
 nav a.router-link-exact-active {
   color: #42b983;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #42b983;
+  text-decoration: none;
+  transition: 0.5s;
+  transform: scale(1.1);
 }
 </style>
