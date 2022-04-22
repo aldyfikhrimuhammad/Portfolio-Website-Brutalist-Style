@@ -1,5 +1,17 @@
 # portfolio-website
 
+## Introduction
+
+### Author
+
+### License
+
+## Design and Layout
+
+## Development
+
+## Deployment
+
 ## Project setup
 ```
 npm install
