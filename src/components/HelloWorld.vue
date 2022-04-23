@@ -18,6 +18,7 @@
       </b-col>
     </b-row>
 
+    <!-- Unused -->
     <!--
     <b-row style="border: 2px solid black; padding: 50px 0px; box-sizing: border-box">
       <b-col><b-icon icon="circle-fill" animation="throb" font-scale="4"></b-icon></b-col>
