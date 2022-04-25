@@ -19,8 +19,8 @@
             <hr />
           </div>
           <div style="border: 2px solid white; margin-top: auto">
-            <div class="text-left p-2"><h6 style="border-bottom: 1px solid white;">Social Media</h6></div>
-            <div>
+            <div class="text-left p-2"><h6 style="border-bottom: 1px solid white">Social Media</h6></div>
+            <div style="display: flex; justify-content: space-evenly">
               <b-icon class="m-2" icon="linkedin" font-scale="2"></b-icon>
               <b-icon class="m-2" icon="github" font-scale="2"></b-icon>
               <b-icon class="m-2" icon="instagram" font-scale="2"></b-icon>
@@ -46,13 +46,28 @@
             <img src="@/assets/aboutPictures.png" alt="Profile-Picture" width="100%" height="100%" />
           </div>
         </b-col>
-        <b-col class="aboutContent"> </b-col>
+        <b-col class="aboutContent p-2 text-center">
+          <h1>SERVICES</h1>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <div>
+            <div>
+              <b-carousel id="carousel-fade" style="text-shadow: 5px 5px 10px #000000; font-weight: bold;" fade indicators img-width="480" img-height="144" >
+                <b-carousel-slide img-src="@/assets/Dashboard3D-Services.png"><h5>Web Development</h5></b-carousel-slide>
+                <b-carousel-slide img-src="@/assets/SocialMedia3D-Services.png"><h5>Social Media Design</h5></b-carousel-slide>
+                <b-carousel-slide img-src="@/assets/Copywriting3D-Services.png"><h5>Copywriting</h5></b-carousel-slide>
+              </b-carousel>
+            </div>
+          </div>
+        </b-col>
       </b-row>
     </b-container>
   </div>
 </template>
 
 <style scoped>
+h1 {
+  font-weight: bolder;
+}
 p {
   font-size: 1.2em;
   font-weight: bold;
@@ -78,9 +93,6 @@ p {
   color: #fff;
   display: flex;
   flex-direction: column;
-}
-.contentMid h1 {
-  font-weight: bolder;
 }
 .contentMid hr {
   border-color: #fff;
