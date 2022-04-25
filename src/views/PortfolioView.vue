@@ -14,26 +14,26 @@
               </div>
               <div class="description mt-2">
                 <p>
-                  Foccu Indonesia is a digital agency engaged in graphic design and development website that was founded in 2021. Founded by young people from various regions in Indonesia Indonesia, which has a goal to help develop the MSME
+                  <strong>Foccu Indonesia</strong> is a digital agency engaged in graphic design and development website that was founded in 2021. Founded by young people from various regions in Indonesia Indonesia, which has a goal to help develop the MSME
                   sector in Indonesia to be more advanced and able to compete in this digitalization era.
                 </p>
                 <p>
                   In the creation and development of the Foccu Indonesia website I was in charge of make a mockup of the website's UI/UX design to implement it on the line the entire code from start to finish all pages, menus and features.
                 </p>
-                <p>Technology Stacks: HTML, CSS, Javascript, Bootstrap, Responsive Design</p>
+                <p><strong>Technology Stacks:</strong> HTML, CSS, Javascript, Bootstrap, Responsive Design</p>
               </div>
             </div>
           </b-col>
           <b-col cols="4" style="border: 2px solid black; background-color: #000">
-            <div class="m-2" style="background-color: #fff">
-              <img src="@/assets/aboutPictures.png" alt="Profile-Picture" width="100%" height="100%" />
+            <div class="m-2">
+              <img src="@/assets/Foccu Indonesia desktop.png" alt="Foccu-Indonesia Website" width="100%" height="100%" />
             </div>
           </b-col>
         </b-row>
         <b-row>
           <b-col cols="4" style="border: 2px solid black; background-color: #000">
-            <div class="m-2" style="background-color: #fff">
-              <img src="@/assets/aboutPictures.png" alt="Profile-Picture" width="100%" height="100%" />
+            <div class="m-2">
+              <img src="@/assets/HayuBaca desktop.png" alt="HayuBaca Website" width="100%" height="100%" />
             </div>
           </b-col>
           <b-col cols="8" style="border: 2px solid black">
@@ -44,14 +44,14 @@
               </div>
               <div class="description mt-2">
                 <p>
-                  HayuBaca! is a blog website that was developed by 3 young people from West Java, namely Aldy Fikhri Muhammad, Mohamad Arizal Hadisucipto, and Rizky Rafi Azhara who has the main goal of fulfilling the mandatory graduation
+                  <strong>HayuBaca!</strong> is a blog website that was developed by 3 young people from West Java, namely Aldy Fikhri Muhammad, Mohamad Arizal Hadisucipto, and Rizky Rafi Azhara who has the main goal of fulfilling the mandatory graduation
                   requirements in Chandradimuka Jabarcodingcamp program in the VueJS class organized by West Java government in collaboration with many parties.
                 </p>
                 <p>
                   In the creation and development of this website, I was involved in this team on duty to make a mockup of the UI design of the entire website page and perform styling / styling on the website using the BootstrapVue
                   framework.
                 </p>
-                <p>Technology Stacks: VueJS, VueX, BootstrapVue, Axios, Responsive Design</p>
+                <p><strong>Technology Stacks:</strong> VueJS, VueX, BootstrapVue, Axios, Responsive Design</p>
               </div>
             </div>
           </b-col>

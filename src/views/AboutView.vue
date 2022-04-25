@@ -35,27 +35,32 @@
             </p>
           </div>
           <div class="buttonContainer p-3">
-            <b-button block variant="outline-dark" size="lg" class="homeButton">HIRE ME</b-button>
+            <router-link to="/contact"><b-button block variant="outline-dark" size="lg" class="homeButton">HIRE ME</b-button></router-link>
           </div>
         </b-col>
       </b-row>
 
       <b-row>
         <b-col class="aboutContent">
-          <div class="m-3" style="border: 2px solid black">
-            <img src="@/assets/aboutPictures.png" alt="Profile-Picture" width="100%" height="100%" />
+          <div class="m-5 p-2">
+            <b-carousel id="carousel-fade" style="" fade indicators img-width="480" img-height="144">
+              <b-carousel-slide img-src="@/assets/Dashboard3D-Services.png"> </b-carousel-slide>
+              <b-carousel-slide img-src="@/assets/SocialMedia3D-Services.png"> </b-carousel-slide>
+              <b-carousel-slide img-src="@/assets/Copywriting3D-Services.png"> </b-carousel-slide>
+            </b-carousel>
           </div>
         </b-col>
         <b-col class="aboutContent p-2 text-center">
           <h1>SERVICES</h1>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Some of the services I can provide.</p>
           <div>
-            <div>
-              <b-carousel id="carousel-fade" style="text-shadow: 5px 5px 10px #000000; font-weight: bold;" fade indicators img-width="480" img-height="144" >
-                <b-carousel-slide img-src="@/assets/Dashboard3D-Services.png"><h5>Web Development</h5></b-carousel-slide>
-                <b-carousel-slide img-src="@/assets/SocialMedia3D-Services.png"><h5>Social Media Design</h5></b-carousel-slide>
-                <b-carousel-slide img-src="@/assets/Copywriting3D-Services.png"><h5>Copywriting</h5></b-carousel-slide>
-              </b-carousel>
+            <div class="text-left mt-5">
+              <h4>Web Development</h4>
+              <h6 style="border-bottom: 2px solid black">Implementation of the UI/UX that has been made in a neat line of code that is carried out with high regard for client trust and satisfaction.</h6>
+              <h4>Social Media Design</h4>
+              <h6 style="border-bottom: 2px solid black">Creating an attractive and comfortable design to be able to bring in more audiences who like the social media content.</h6>
+              <h4>Social Media Copywriting</h4>
+              <h6 style="border-bottom: 2px solid black">Arrange a series of words that are able to convey the main message clearly and far from boring words, so that more audiences are interested in the content.</h6>
             </div>
           </div>
         </b-col>

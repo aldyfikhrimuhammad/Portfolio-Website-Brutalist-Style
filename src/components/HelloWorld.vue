@@ -3,12 +3,13 @@
     <b-row>
       <b-col style="border: 2px solid black">
         <div class="contentLeft p-4 m-5">
-          <h1>Hi!<br />I'm Aldy Fikhri<br /></h1>
-          <h3>And i'm Front End Web Developer</h3>
+          <h1>Hi!</h1>
+          <h1>I'm Aldy Fikhri</h1>
+          <h3>And i'm <i>Front End Web Developer.</i></h3>
         </div>
         <div class="buttonContainer buttonContainer1 p-3 mb-4">
           <div class="buttonContainer buttonContainer2 p-3">
-            <b-button variant="dark" size="lg" class="homeButton">Hire Me!</b-button>
+            <router-link to="/contact"><b-button variant="dark" size="lg" class="homeButton">Hire Me!</b-button></router-link>
           </div>
         </div>
       </b-col>
@@ -25,6 +26,12 @@
 <style scoped>
 h1 {
   font-size: 2.5em;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.5em;
+}
+i {
   font-weight: bold;
 }
 .homeContent {
@@ -64,7 +71,6 @@ h1 {
   font-weight: bold;
   border: 2px solid #000;
 }
-
 </style>
 
 <script>
