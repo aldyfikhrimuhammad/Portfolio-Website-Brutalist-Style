@@ -3,11 +3,12 @@
     <b-row>
       <b-col style="border: 2px solid black">
         <div class="contentLeft p-4 m-5">
-          <h1>LOREM IPSUM<br />DOLOR SIT<br />AMET.</h1>
+          <h1>Hi!<br />I'm Aldy Fikhri<br /></h1>
+          <h3>And i'm Front End Web Developer</h3>
         </div>
         <div class="buttonContainer buttonContainer1 p-3 mb-4">
           <div class="buttonContainer buttonContainer2 p-3">
-            <b-button variant="dark" size="lg" class="homeButton">LOREM</b-button>
+            <b-button variant="dark" size="lg" class="homeButton">Hire Me!</b-button>
           </div>
         </div>
       </b-col>
@@ -17,15 +18,6 @@
         </div>
       </b-col>
     </b-row>
-
-    <!-- Unused -->
-    <!--
-    <b-row style="border: 2px solid black; padding: 50px 0px; box-sizing: border-box">
-      <b-col><b-icon icon="circle-fill" animation="throb" font-scale="4"></b-icon></b-col>
-      <b-col><b-icon icon="circle-fill" animation="throb" font-scale="4"></b-icon></b-col>
-      <b-col><b-icon icon="circle-fill" animation="throb" font-scale="4"></b-icon></b-col>
-    </b-row>
-    -->
   </b-container>
 </template>
 
