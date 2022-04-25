@@ -10,20 +10,20 @@
             </p>
           </div>
           <div class="buttonContainer p-3" style="">
-            <b-button block variant="outline-dark" size="lg" class="homeButton">Download CV</b-button>
+            <a href="/src/assets/Curriculum Vitae - Aldy Fikhri Muhammad.pdf" target="_blank"><b-button block variant="outline-dark" size="lg" class="homeButton">Download CV</b-button></a>
           </div>
         </b-col>
         <b-col class="aboutContent contentMid py-5 px-2 text-center">
           <div class="py-5">
-            <h1 width="100%">ABOUT ME</h1>
+            <h1 width="100%" class="titleAbout">ABOUT ME</h1>
             <hr />
           </div>
-          <div style="border: 2px solid white; margin-top: auto">
-            <div class="text-left p-2"><h6 style="border-bottom: 1px solid white">Social Media</h6></div>
-            <div style="display: flex; justify-content: space-evenly">
-              <b-icon class="m-2" icon="linkedin" font-scale="2"></b-icon>
-              <b-icon class="m-2" icon="github" font-scale="2"></b-icon>
-              <b-icon class="m-2" icon="instagram" font-scale="2"></b-icon>
+          <div class="medsosContainer">
+            <div class="text-left p-2"><h6 style="border-bottom: 2px solid white">Social Media</h6></div>
+            <div class="medsosAbout">
+              <a href="https://www.linkedin.com/in/aldyfikhrimuhammad/" target="_blank"><b-icon class="m-2" icon="linkedin" font-scale="2"></b-icon></a>
+              <a href="https://github.com/aldyfikhrimuhammad" target="_blank"><b-icon class="m-2" icon="github" font-scale="2"></b-icon></a>
+              <a href="https://www.instagram.com/aldyfikh/" target="_blank"><b-icon class="m-2" icon="instagram" font-scale="2"></b-icon></a>
             </div>
           </div>
         </b-col>
@@ -43,7 +43,7 @@
       <b-row>
         <b-col class="aboutContent">
           <div class="m-5 p-2">
-            <b-carousel id="carousel-fade" style="" fade indicators img-width="480" img-height="144">
+            <b-carousel id="carousel-fade" fade indicators img-width="480" img-height="144">
               <b-carousel-slide img-src="@/assets/Dashboard3D-Services.png"> </b-carousel-slide>
               <b-carousel-slide img-src="@/assets/SocialMedia3D-Services.png"> </b-carousel-slide>
               <b-carousel-slide img-src="@/assets/Copywriting3D-Services.png"> </b-carousel-slide>
@@ -56,11 +56,11 @@
           <div>
             <div class="text-left mt-5">
               <h4>Web Development</h4>
-              <h6 style="border-bottom: 2px solid black">Implementation of the UI/UX that has been made in a neat line of code that is carried out with high regard for client trust and satisfaction.</h6>
+              <h6>Implementation of the UI/UX that has been made in a neat line of code that is carried out with high regard for client trust and satisfaction.</h6>
               <h4>Social Media Design</h4>
-              <h6 style="border-bottom: 2px solid black">Creating an attractive and comfortable design to be able to bring in more audiences who like the social media content.</h6>
+              <h6>Creating an attractive and comfortable design to be able to bring in more audiences who like the social media content.</h6>
               <h4>Social Media Copywriting</h4>
-              <h6 style="border-bottom: 2px solid black">Arrange a series of words that are able to convey the main message clearly and far from boring words, so that more audiences are interested in the content.</h6>
+              <h6>Arrange a series of words that are able to convey the main message clearly and far from boring words, so that more audiences are interested in the content.</h6>
             </div>
           </div>
         </b-col>
@@ -72,10 +72,25 @@
 <style scoped>
 h1 {
   font-weight: bolder;
+  text-shadow: 3px 3px 7px #000;
+}
+h4 {
+  font-weight: bolder;
+}
+h6 {
+  border-bottom: 2px solid black;
 }
 p {
   font-size: 1.2em;
   font-weight: bold;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  color: #ccc;
+  transition: 0.5s;
+  transform: scale(1.2);
 }
 .aboutContent {
   border: 2px solid black;
@@ -88,6 +103,11 @@ p {
 .buttonContainer:hover {
   transition: 1s;
   transform: scale(1.1);
+}
+.titleAbout {
+  font-size: 2.5em;
+  font-weight: bolder;
+  text-shadow: 3px 3px 7px #fff;
 }
 .contentRight {
   display: flex;
@@ -107,5 +127,13 @@ p {
 .contentLeft {
   display: flex;
   flex-direction: column;
+}
+.medsosContainer {
+  border: 2px solid white;
+  margin-top: auto;
+}
+.medsosAbout {
+  display: flex;
+  justify-content: space-evenly;
 }
 </style>
