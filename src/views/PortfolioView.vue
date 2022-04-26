@@ -8,7 +8,7 @@
         <b-row>
           <b-col cols="8" class="portfolioContent">
             <div class="m-2 p-2 text-left portfolioContent" >
-              <div class="titleBlog">
+              <div class="titleBlog titleContent">
                 <h3>Foccu Indonesia</h3>
                 <h5>URL: <a href="https://foccu-indonesia.netlify.app//" target="_blank">Click Here!</a></h5>
               </div>
@@ -38,7 +38,7 @@
           </b-col>
           <b-col cols="8" class="portfolioContent">
             <div class="m-2 p-2 portfolioContent text-left">
-              <div class="titleContent">
+              <div class="titleContent titleBlog">
                 <h3>HayuBaca Website Blog</h3>
                 
                 <h5>URL: <a href="https://hayubaca.netlify.app/" target="_blank">Click Here!</a></h5>
