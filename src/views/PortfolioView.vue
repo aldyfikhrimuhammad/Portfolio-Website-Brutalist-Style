@@ -10,7 +10,7 @@
             <div class="m-2 p-2 text-left portfolioContent" >
               <div class="titleBlog">
                 <h3>Foccu Indonesia</h3>
-                <h5>URL: <a href="https://foccu-indonesia.netlify.app//" target="_blank">https://https://foccu-indonesia.netlify.app/</a></h5>
+                <h5>URL: <a href="https://foccu-indonesia.netlify.app//" target="_blank">Click Here!</a></h5>
               </div>
               <div class="description mt-2">
                 <p>
@@ -38,10 +38,10 @@
           </b-col>
           <b-col cols="8" class="portfolioContent">
             <div class="m-2 p-2 portfolioContent text-left">
-              <div class="titleBlog">
+              <div class="titleContent">
                 <h3>HayuBaca Website Blog</h3>
                 
-                <h5>URL: <a href="https://hayubaca.netlify.app/" target="_blank">https://hayubaca.netlify.app/</a></h5>
+                <h5>URL: <a href="https://hayubaca.netlify.app/" target="_blank">Click Here!</a></h5>
               </div>
               <div class="description mt-2">
                 <p>
@@ -87,5 +87,8 @@ a:hover {
 .imgPorto {
   border: 2px solid black;
   background-color: #000;
+}
+.titleContent h5 {
+  white-space: normal;
 }
 </style>
