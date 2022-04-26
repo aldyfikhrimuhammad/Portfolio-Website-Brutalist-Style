@@ -6,11 +6,11 @@
     <div>
       <b-container fluid class="bv-example-row" style="border: 2px solid black">
         <b-row>
-          <b-col cols="8" style="border: 2px solid black">
-            <div class="m-2 p-2" style="border: 2px solid black; text-align: left">
-              <div class="title" style="border-bottom: 2px solid black">
+          <b-col cols="8" class="portfolioContent">
+            <div class="m-2 p-2 text-left portfolioContent" >
+              <div class="titleBlog">
                 <h3>Foccu Indonesia</h3>
-                <h5>URL: https://foccuindonesia.netlify.app/</h5>
+                <h5>URL: <a href="https://foccu-indonesia.netlify.app//" target="_blank">https://https://foccu-indonesia.netlify.app/</a></h5>
               </div>
               <div class="description mt-2">
                 <p>
@@ -24,23 +24,24 @@
               </div>
             </div>
           </b-col>
-          <b-col cols="4" style="border: 2px solid black; background-color: #000">
+          <b-col cols="4" class="imgPorto">
             <div class="m-2">
               <img src="@/assets/Foccu Indonesia desktop.png" alt="Foccu-Indonesia Website" width="100%" height="100%" />
             </div>
           </b-col>
         </b-row>
         <b-row>
-          <b-col cols="4" style="border: 2px solid black; background-color: #000">
+          <b-col cols="4" class="imgPorto">
             <div class="m-2">
               <img src="@/assets/HayuBaca desktop.png" alt="HayuBaca Website" width="100%" height="100%" />
             </div>
           </b-col>
-          <b-col cols="8" style="border: 2px solid black">
-            <div class="m-2 p-2" style="border: 2px solid black; text-align: left">
-              <div class="title" style="border-bottom: 2px solid black">
+          <b-col cols="8" class="portfolioContent">
+            <div class="m-2 p-2 portfolioContent text-left">
+              <div class="titleBlog">
                 <h3>HayuBaca Website Blog</h3>
-                <h5>URL: https://hayubaca.netlify.app/</h5>
+                
+                <h5>URL: <a href="https://hayubaca.netlify.app/" target="_blank">https://hayubaca.netlify.app/</a></h5>
               </div>
               <div class="description mt-2">
                 <p>
@@ -60,3 +61,31 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+h1 {
+  font-weight: bolder;
+  text-shadow: 1px 1px 3px #000;
+}
+h3 {
+  text-shadow: 1px 1px 3px #000;
+}
+a {
+  color: #000;
+  text-decoration: underline;
+}
+a:hover {
+  transition: 0.5s;
+  text-shadow: 1px 1px 3px #000;
+}
+.portfolioContent {
+  border: 2px solid black;
+}
+.titleBlog {
+  border-bottom: 2px solid black;
+}
+.imgPorto {
+  border: 2px solid black;
+  background-color: #000;
+}
+</style>

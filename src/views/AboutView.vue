@@ -72,13 +72,14 @@
 <style scoped>
 h1 {
   font-weight: bolder;
-  text-shadow: 3px 3px 7px #000;
+  text-shadow: 1px 1px 3px #000;
 }
 h4 {
   font-weight: bolder;
 }
 h6 {
   border-bottom: 2px solid black;
+  padding-bottom: 25px;
 }
 p {
   font-size: 1.2em;
@@ -107,7 +108,7 @@ a:hover {
 .titleAbout {
   font-size: 2.5em;
   font-weight: bolder;
-  text-shadow: 3px 3px 7px #fff;
+  text-shadow: 1px 1px 3px #fff;
 }
 .contentRight {
   display: flex;
