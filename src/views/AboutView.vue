@@ -110,6 +110,10 @@ a:hover {
   font-weight: bolder;
   text-shadow: 1px 1px 3px #fff;
 }
+.titleAbout:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
 .contentRight {
   display: flex;
   flex-direction: column;

@@ -90,6 +90,12 @@ i {
     box-shadow: 0 30px 20px rgba(0, 0, 0, 0.3);
   }
 }
+.contentRight:hover {
+  transition: 5s;
+  transform-style: preserve-3d;
+  transform: rotateY(360deg);
+  transform-origin: center;
+}
 .imgHome {
   border-radius: 25px;
   box-shadow: 26px 26px 51px #9e9e9e, -26px -26px 51px #ffffff;
@@ -107,7 +113,7 @@ export default {
   },
 };
 
-// Belum Work
+// Still didn't Work
 let contentRight = document.querySelector('.contentRight');
 document.addEventListener('mousemove', function(e) {
   let xAxis = (window.innerWidth / 2 - e.pageX) / 10;

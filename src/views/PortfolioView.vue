@@ -91,6 +91,11 @@ h1 {
   font-weight: bolder;
   text-shadow: 1px 1px 3px #000;
 }
+h1:hover {
+  text-shadow: 1px 1px 3px #fff;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
 h3 {
   text-shadow: 1px 1px 3px #000;
 }

@@ -5,7 +5,7 @@
         <b-row class="text-left">
           <b-col cols="4" class="contactTitle">
             <div class="mt-5">
-              <h2>Get in Touch.</h2>
+              <h2>Get In Touch.</h2>
               <hr color="#fff" />
             </div>
           </b-col>
@@ -40,6 +40,11 @@
 h2 {
   font-weight: bolder;
   text-shadow: 1px 1px 3px #fff;
+}
+h2:hover {
+  text-shadow: 1px 1px 3px #000;
+  transition: 0.5s;
+  transform: scale(1.1);
 }
 h3 {
   font-weight: bolder;
